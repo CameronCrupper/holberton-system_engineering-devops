@@ -1,2 +1,2 @@
 #!/bin/bash
-mirror olleh \n
+chmod --reference hello \n
