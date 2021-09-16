@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -e root /etc/passwd | tail -3
+grep -e root /etc/passwd | tail
