@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth -type d
+find -maxdepth -type d
