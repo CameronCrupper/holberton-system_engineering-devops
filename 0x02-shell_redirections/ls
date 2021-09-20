@@ -1,0 +1,18 @@
+#
+C
+Javascript
+Perl
+ASP
+R
+Go
+C#
+C++
+R
+Perl
+Python
+Python
+ASP
+julien@ubuntu:/tmp/0x02$ cat list | ./13-unique 
+C
+C++
+Go
