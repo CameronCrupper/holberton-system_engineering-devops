@@ -1,2 +1,2 @@
 #!/bin/bash
-ibase=BINARY obase=10
+echo ibase=BINARY obase=10
