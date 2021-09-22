@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#holberton 10 times with until loop"
 i="0"
 
 until [ $i -gt 9 ]
