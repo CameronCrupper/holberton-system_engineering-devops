@@ -1,16 +1,20 @@
 #!/usr/bin/env bash
 #holberton 10 times but 4 says bad luck 8 says good luck
-i=0
+i="0"
 
 while [ $i -le 7 ]
 	do
-	if (( i==3 ))
+		echo "Holberton School"
+		(( i++ ))
+	if
+		(( i==3 ))
 	then
 		echo "bad luck"
-	elif (( i==6 ))
+	elif 
+		(( i==6 ))
 	then
 		echo "good luck"
-	fi
-		echo "Holberton School"
-		((i++))
-	done
+	else
+		continue
+	fi		
+       	done
