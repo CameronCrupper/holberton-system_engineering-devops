@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#making a new file to kill
+while :
+	do
+		echo "To infinity and beyond"
+		sleep 2
+		trap "echo I am invincible!!!" SIGTERM
+done
