@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #list of hours and minutes
 hour=0
-while [ $hour -lt 12 ]
+while [ $hour -le 12 ]
 	do
 		echo "Hour: $hour"
 		echo {1..59} | tr " " "\n"
