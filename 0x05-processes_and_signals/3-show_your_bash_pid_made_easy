@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display PID without using ps
+$BASHID | pgrep bash -l
