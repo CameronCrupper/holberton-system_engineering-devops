@@ -7,7 +7,7 @@ start="frontend http_web
 \n\tbind *:80
 \n\tstats uri /haproxy?stats
 \n\tdefault_backend custom_backend
-\nbackend custom_backend
+\n\backend custom_backend
 \n\tbalance roundrobin
 \n\tserver web-01 52.90.144.186:80 check
 \n\tserver web-02 100.26.51.3:80 check"
