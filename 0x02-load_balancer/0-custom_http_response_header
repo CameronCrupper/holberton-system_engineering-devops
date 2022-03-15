@@ -15,18 +15,3 @@ sudo sed -i "s@$find@$replace@" /etc/nginx/sites-available/default
 sudo sed -i "s@$find@$replace404@" /etc/nginx/sites-available/default
 sudo service nginx restart
 sudo service nginx reload
-
-config_file="/etc/nginx/nginx.conf"
-
-if ! sudo grep -q "add_header X-Served-By" $config_file;
-then
-    header_key="X-Served-By"
-    header_value="$hostname"
-    header="add_header $header_key $header_value;"
-    search="http {"
-    new_conf="$search\n\t$header"
-
-    sudo sed -i "s|$search|$new_conf|" $config_file
-
-    sudo service nginx restart
-fi
