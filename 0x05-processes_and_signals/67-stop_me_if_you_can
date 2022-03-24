@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#killing process with using kill
+pkill -f 7-highlander
