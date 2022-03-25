@@ -2,7 +2,6 @@
 """
 export data in the CSV format
 """
-
 import requests
 import csv
 from sys import argv
@@ -12,7 +11,6 @@ if __name__ == '__main__':
         employ_id = int(argv[1])
     except ValueError:
         exit()
-
 
     api_url = 'https://jsonplaceholder.typicode.com'
     user_uri = '{api}/users/{id}'.format(api=api_url, id=employ_id)

@@ -13,7 +13,6 @@ if __name__ == '__main__':
     except ValueError:
         exit()
 
-
     api_url = 'https://jsonplaceholder.typicode.com'
     user_uri = '{api}/users/{id}'.format(api=api_url, id=employ_id)
     todo_uri = '{user_uri}/todos'.format(user_uri=user_uri)
