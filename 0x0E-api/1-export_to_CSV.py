@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-export data in the CSV format
+export data in the CSV format from number 0
 """
 import requests
 import csv
