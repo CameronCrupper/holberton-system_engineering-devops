@@ -6,6 +6,7 @@ from json import dumps
 import requests
 from sys import argv
 
+
 def gather_tasks(response, employee):
     """
     Gather tasks for employee
